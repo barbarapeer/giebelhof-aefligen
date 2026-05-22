@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Giebelhof Aefligen</title>
+
   <style>
     body {
       margin: 0;
@@ -11,14 +13,23 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
+      overflow: hidden;
     }
-    img {
-      max-width: 95%;
-      max-height: 95vh;
+
+    object {
+      width: 95%;
+      height: 95vh;
+      border: none;
     }
   </style>
 </head>
+
 <body>
-  <img src="index.svg" alt="Giebelhof Aefligen">
+
+<object
+  data="index.svg.svg"
+  type="image/svg+xml">
+</object>
+
 </body>
 </html>
